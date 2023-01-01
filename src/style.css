@@ -1,0 +1,359 @@
+:root {
+  --heading-font-family: "Comforter", cursive;
+  --body-font-family: "Poppins", sans-serif;
+  --primary-color: #924c87;
+  --secondary-color: #5a3054;
+}
+body {
+  font-family: var(--body-font-family);
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+h1 {
+  font-size: 150px;
+}
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.work-banner h2 {
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.work-banner p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.contact-hero h1 {
+  font-weight: 600;
+  font-size: 65px;
+  color: #5d7a66;
+}
+.contact-banner h1 {
+  font-weight: 600;
+  font-size: 75px;
+}
+
+.contact-banner p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #f9f7fe;
+  color: #272044;
+  position: absolute;
+  height: 70px;
+  bottom: 0px;
+  width: 100%;
+}
+
+footer a {
+  font-size: 24px;
+  text-decoration: none;
+  color: #272044;
+}
+
+footer a:hover {
+  color: var(--primary-color);
+}
+
+footer p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.heading-font {
+  font-family: var(--heading-font-family);
+}
+
+.sub-heading {
+  font-weight: 600;
+  color: #924c87;
+}
+.max-margin {
+  margin-top: 60px;
+}
+.margin-bottom {
+  margin-bottom: 120px;
+}
+.hero-img-home {
+  background-image: url("/images/background-home.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-img-about {
+  background-image: url("/images/background-about.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  margin: auto;
+  padding: 30px 50px;
+}
+
+.hero-img-about h1 {
+  font-size: 75px;
+  font-weight: 600;
+}
+
+.cv-section {
+  margin-bottom: 120px;
+}
+
+.about-socials {
+  background-image: url("/images/background-about.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-socials h3 {
+  font-size: 24px;
+}
+.about-socials p {
+  font-size: 16px;
+}
+
+.hero-img-projects {
+  background-image: url("/images/background-projects.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  margin: auto;
+  padding: 30px 50px;
+}
+
+.hero-img-projects h1 {
+  font-size: 75px;
+  font-weight: 600;
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.about-headshot {
+  width: 80%;
+}
+
+.about-img {
+  font-size: 32px;
+  color: var(--secondary-color);
+}
+
+.about-branch {
+  font-size: 24px;
+  color: #272044;
+}
+
+.about-branch-mobile {
+  font-size: 18px;
+  color: var(--secondary-color);
+  margin-bottom: 0px;
+  padding: 10px 10px;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--primary-color);
+  background-color: #f4f4f4;
+}
+.accordion-button:focus {
+  border-color: var(--primary-color);
+  box-shadow: var(--primary-color);
+}
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-item {
+  background: no-repeat scroll center scroll;
+  background-size: cover;
+}
+.carousel-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.7;
+}
+
+.carousel-caption h5 {
+  font-size: 24px;
+  font-weight: 750;
+}
+
+.carousel-caption p {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  padding: 10px 20px;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+.btn-secondary {
+  background-color: #ffffff;
+  color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  padding: 10px 20px;
+  font-weight: 600;
+}
+
+.btn-secondary:hover {
+  color: #ffffff;
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+.btn-contact {
+  background-color: #ffffff;
+  border-color: #145374;
+  color: #145374;
+  padding: 10px 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.btn-contact:hover {
+  background-color: #333061;
+  border-color: #333061;
+  color: #ffffff;
+}
+
+.work-banner {
+  background-image: url(/images/background-home.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 120px;
+  padding: 80px 50px;
+}
+
+.contact-banner {
+  background-image: url(/images/background-contact-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  margin: auto;
+  padding: 80px 50px;
+}
+
+.contact-banner a {
+  font-weight: 600;
+}
+
+.contact-icon {
+  color: #ffffff;
+  font-size: 32px;
+  background-color: #145374;
+  padding: 20px 20px;
+  border-radius: 50%;
+}
+
+#brand-logo {
+  font-size: 34px;
+}
+
+@media (max-width: 1400px) {
+  h1 {
+    font-size: 120px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .max-margin {
+    margin-top: 12px;
+  }
+  .contact-banner h1 {
+    font-size: 65px;
+  }
+
+  .contact-icon {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 770px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+  #brand-logo {
+    font-size: 24px;
+  }
+
+  footer p {
+    font-size: 10px;
+  }
+
+  .work-banner h2 {
+    font-weight: 700;
+    font-size: 28px;
+  }
+
+  .work-banner p {
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .about-img {
+    font-size: 24px;
+  }
+
+  .about-branch {
+    font-size: 20px;
+  }
+
+  .contact-banner h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+  .hero-img-projects h1 {
+    font-size: 45px;
+  }
+  .hero-img-about h1 {
+    font-size: 45px;
+  }
+}
